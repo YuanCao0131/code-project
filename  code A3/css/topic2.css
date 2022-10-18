@@ -1,0 +1,164 @@
+:root {
+    --bg-color: #eaecf0;
+    --main-color: #ff66c4;
+    --nav-item-width: 100px;
+    --nav-item-height: 32px;
+    --nav-item-border-width: 4px;
+}
+
+
+
+.header{
+	background-color: blue;
+	width: 1450px;
+	height: 130px;
+	margin: 0 auto;
+	float:left;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+
+}
+
+
+
+.subheader{
+	background-color: #F1C9D9;
+	width: 1450px;
+	height: 45px;
+	margin: 0 auto;
+	float:left;
+
+}
+
+.nav {
+    position: relative;
+    border-radius: 24px;
+    font-size: 0;
+    padding: var(--nav-item-border-width);
+    z-index: 1;
+    margin:0px 500px;
+    padding: 5px;
+}
+
+.nav-item {
+    width: var(--nav-item-width);
+    height: var(--nav-item-height);
+    font-size: 14px;
+    color: var(--main-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+
+.nav>input[type="radio"] {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.nav>input[type="radio"]:checked+label {
+    color: white;
+}
+
+.tracker {
+    width: var(--nav-item-width);
+    height: var(--nav-item-height);
+    background: var(--main-color);
+    z-index: -1;
+    position: absolute;
+    left: 225px;
+    top: var(--nav-item-border-width);
+    border-radius: 24px;
+    transition: transform .3s ease-in-out;
+}
+
+#nav-item-opt-2:checked~.tracker {
+    transform: translateX(calc(var(--nav-item-width)*1.1));
+}
+
+#nav-item-opt-3:checked~.tracker {
+    transform: translateX(calc(var(--nav-item-width)*2.18));
+}
+
+#nav-item-opt-4:checked~.tracker {
+    transform: translateX(calc(var(--nav-item-width)*3.25));
+}
+
+.body{
+	background-color: BlanchedAlmond;
+	width: 1450px;
+	height: 800px;
+	margin: 0 auto;
+	float:left;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+
+
+}
+
+.text b{
+	text-align:center;
+}
+
+.text{
+	width:1000px;
+	height:400px;
+	text-align:justify;	
+	font-size:18px;
+	margin:10px 200px;
+	line-height:40px;
+	font-family: Arial;
+	overflow:auto;
+	background-color: BlanchedAlmond;
+
+}
+
+
+
+.pic3{
+	float:left;
+	padding:0px 500px;
+	text-align:center;
+
+}
+
+
+.tail{
+
+background-color: ivory;
+	width: 1450px;
+	height: 45px;
+	margin: 0 auto;
+	float:left;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+
+
+
+
+a:link {
+text-decoration: none;
+color:#5080ef;
+}
+a:visited {
+text-decoration: none;
+color:white;
+}
+a:hover {
+text-decoration: none;
+color:#5080ef;
+}
+a:active {
+text-decoration: none;
+color:#5080ef;
+}
