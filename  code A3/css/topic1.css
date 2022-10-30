@@ -80,7 +80,7 @@
     background: var(--main-color);
     z-index: -1;
     position: absolute;
-    left: 10px;
+    left: 120px;
     top: var(--nav-item-border-width);
     border-radius: 24px;
     transition: transform .3s ease-in-out;
@@ -174,7 +174,6 @@ background-color: ivory;
 
 
 
-
 a:link {
 text-decoration: none;
 color:#5080ef;
@@ -191,3 +190,54 @@ a:active {
 text-decoration: none;
 color:#5080ef;
 }
+
+.showword {
+	display: flex;
+	margin-bottom: 10px;
+  }
+  
+  .showword>.imgWrapper {
+	width: 174x;
+	height: 233px;
+  }
+  
+  .showword>.imgWrapper>img {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .showword>.contentWrapper {
+	margin: 5px 20px;
+	flex: 1;
+	background-color: #fff;
+	border-radius: 50px;
+	position: relative;
+	border: 1px solid #333;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 3s;
+	padding: 50px;
+  }
+  
+  .contentWrapper:before,
+  .contentWrapper:after {
+	border: solid transparent;
+	content: '';
+	height: 0;
+	left: -20px;
+	position: absolute;
+	width: 0;
+  }
+  
+  .contentWrapper:after {
+	border-width: 10px;
+	border-right-color: #fff;
+	top: 20px;
+  }
+  
+  .contentWrapper:before {
+	border-width: 10px;
+	border-right-color: #000;
+	top: 20px;
+	left: -21px;
+  }
