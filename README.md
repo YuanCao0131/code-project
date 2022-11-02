@@ -31,11 +31,6 @@ List the ready features here:
 - Simple phtot change
 
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
 ## Setup
 Nothing need to be downloaded, just clone the repository and open the main page(Bonnie website)
 
@@ -64,7 +59,7 @@ To do:
 
 
 ## Acknowledgements
-Give credit here.
+
 - This project was inspired by the Grand Budapest Hotel
 - This project was based on [W3School](https://www.w3schools.com/)
 - This project was based on [RunNoob](https://www.runoob.com/js/js-tutorial.html)
