@@ -102,6 +102,52 @@
 
 }
 
+*{ 
+	margin:opx; 
+	padding:0px;
+}
+	
+#imgnav{
+	height:180px; 
+	margin:0px auto; 
+	text-align:center; 
+	line-height:160px;
+}
+	
+#imgnav img{
+	width:160px; 
+	height:110px;
+	padding:10px; 
+	background:#CCC;
+	margin-top:20px;
+}
+	
+#bigImgBody{ 
+	margin:auto; 
+	width:810px; 
+	height:480px; 
+	text-align:center; 
+	background:BlanchedAlmond;
+	margin-top:20px;
+}
+	
+#bigImg{
+	background:#000; 
+	width:720px; 
+	height:480px; 
+	margin:0px auto;
+}
+
+#bigImg img{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
 .text b{
 	text-align:center;
 }
@@ -121,12 +167,6 @@
 
 
 
-.pic3{
-	float:left;
-	padding:0px 500px;
-	text-align:center;
-
-}
 
 
 .tail{

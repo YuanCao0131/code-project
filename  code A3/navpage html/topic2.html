@@ -42,6 +42,22 @@
 	</div>
 	
 	<div class="body">
+		<div id = "imgnav">
+			<img src = "../image/topic2/1.png"/>
+			<img src = "../image/topic2/2.png"/>
+			<img src = "../image/topic2/3.png"/>
+			<img src = "../image/topic2/4.png"/>
+			<img src = "../image/topic2/5.png"/>
+			<img src = "../image/topic2/6.png"/>
+			<img src = "../image/topic2/7.png"/>
+
+		</div>
+
+		<div id ="bigImgBody">
+			<div id="bigImg">
+				<p>Click on the above image to see the whole one  </p>
+			</div>
+		</div>
 		
 
 	</div>
@@ -50,8 +66,48 @@
 		<img src="../image/Working with data tail.png">		
 	</div>
 
-</body>
 
+
+	<script type="text/javascript">
+
+		function $(id)
+		{
+			return document.getElementById(id);
+		}
+		//get the hover img list
+		var imgList = $("imgnav").getElementsByTagName("img");
+
+		imgHover();
+		
+		function imgHover()
+		{
+			var count = 0;
+			for(count = 0; count <imgList.length; count++)
+			{
+				imgList[count].onmouseover = function(){
+					this.style.backgroundColor = "red";
+				}
+
+				imgList[count].onmouseout = function(){
+					this.style.backgroundColor = "#CCC";
+				}
+
+				imgList[count].onclick = function(){
+					showBigImg(this, "bigImg");
+				}
+			}
+		}
+		//change the big img
+		function showBigImg(element, target)
+		{
+			var imgString = "<img src = '" + element.src+"'/>";
+			$(target).innerHTML = imgString;
+		}
+	</script>
+
+
+
+</body>
 
 
 
