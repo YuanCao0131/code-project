@@ -1,21 +1,76 @@
-This project is made by YuanCao 13999786 for my subject A3 Working with Data and Code.
-There's totally 4 folders.
-The Bonnie website is the homepage.
+# Project Name
+> Bonnie's webpage for introducing the 17 characters shown in the Grand Budapest Hotel.
 
-How to Use it:
-Click on the Bonne website, there will be a page show up,
-you can click on the "Homepage" "Topic1" "Topic2" and "Reference" in the navigation bar
-to switch page among the 4.
-navpage html contains 3 pages including "Topic1" "Topic2" and "Reference" webpage.
-js contains the JavaScript for "Topic1".
-image contains all the image needed for this project.
-CSS contains the all css files needed.
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
-"Bonnie website" briefly introduces the project.
-"Topic 1" present the the animation i made for each characters in Grand Budapest Hotel,
-when you hover it, there will be a dialog show up, and while you moving your mouse away,
-it will disappear.
-"Topic 2" is not completed, so i just put a simple demo here, it's a simple album that
-shows some of the pictures in the Grand Budapest Hotel, you can click on the image above to make
-it shown in the big box.
-"Reference" shows the Reference list.
+
+## General Information
+- This project mainly describe the film I like -- Grand Budapest Hotel, in this project there's totally 4 webpage ,1 for homepage, 2 for description of the characters and 1 is the reference. Because there's totally 17 main characters in the film and someone who's new to this film may feel confused, so I wanna make a webpage to introduce them.
+
+## Technologies Used
+- HTML5
+- CSS
+- JavaScript
+
+
+## Features
+List the ready features here:
+- Awesome feature 1
+- Awesome feature 2
+- Awesome feature 3
+
+
+## Screenshots
+![Example screenshot](./img/screenshot.png)
+<!-- If you have screenshots you'd like to share, include them here. -->
+
+
+## Setup
+Nothing need to be downloaded, just clone the repository and open the main page(Bonnie website)
+
+
+
+
+## Project Status
+Project is: not 100% completed
+
+
+## Room for Improvement
+Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+
+Room for improvement:
+- Better webpage design
+- More animations for the introducing
+- Better layout
+- More interactive design
+- Smooth transition
+- Add a well-designed character relationship diagram
+
+To do:
+- Click to change information
+- Add some animations for better visual effect
+- A character map for figure out the complex relationship among them
+
+
+## Acknowledgements
+Give credit here.
+- This project was inspired by the Grand Budapest Hotel
+- This project was based on [W3School](https://www.w3schools.com/)
+- This project was based on [RunNoob](https://www.runoob.com/js/js-tutorial.html)
+- Many thanks to my tutor Mohamad Naji
+
+
+## Contact
+Created by [@Bonniel] - feel free to contact me!
+
